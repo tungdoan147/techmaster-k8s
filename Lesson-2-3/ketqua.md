@@ -1,4 +1,4 @@
-# Lession 2 - Create your first pod
+# Lesson 2 - Create your first pod
 
 1. Tạo file pod.yaml
 
@@ -67,7 +67,7 @@ pod "hello" deleted
 
 ```
 
-# Lession 3 - **Create a Toolbox pod**
+# Lesson 3 - **Create a Toolbox pod**
 
 1. Create
 
