@@ -107,7 +107,7 @@ pod "hello-6996c677cf-hjjpn" deleted
 
 1. Edit file deployment
 
-![Untitled](Lesson%204%20-%20Create%20the%20front-end%20deployment%204ef5f95ef25e449eb620f07995d98ee9/Untitled.png)
+![Untitled](Lesson-4-5/Lesson 4 - Create the front-end deployment 4ef5f95ef25e449eb620f07995d98ee9/Untitled.png)
 
 1. Apply
 
