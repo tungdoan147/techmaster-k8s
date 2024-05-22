@@ -17,7 +17,7 @@ spec:
 ```
 
 - apiVersion phải là v1
-1. Apply
+2. Apply
 
 ```bash
 /home/tungnd/devops-k8s/lession-2# kubectl apply -f pod.yaml
@@ -25,7 +25,7 @@ pod/hello created
 
 ```
 
-1. Check
+3. Check
 
 ```bash
 Check log
@@ -34,17 +34,17 @@ Hello World
 
 ```
 
-1. Get all 
+4. Get all 
 
-![Untitled](Lession%202%20-%20Create%20your%20first%20pod%204ef5f95ef25e449eb620f07995d98ee9/Untitled.png)
+![Untitled](Lesson2-3/0.png)
 
-![Untitled](Lession%202%20-%20Create%20your%20first%20pod%204ef5f95ef25e449eb620f07995d98ee9/Untitled%201.png)
+![Untitled](Lesson2-3/1.png)
 
-1. Edit lại file pod
+5. Edit lại file pod
 
-![Untitled](Lession%202%20-%20Create%20your%20first%20pod%204ef5f95ef25e449eb620f07995d98ee9/Untitled%202.png)
+![Untitled](Lesson2-3/2.png)
 
-1. Apply lại
+6. Apply lại
 
 ```bash
 /home/tungnd/devops-k8s/lession-2# kubectl delete pod hello
@@ -59,7 +59,7 @@ root@hello:/# service nginx status
 
 ```
 
-1. Xóa pods
+7. Xóa pods
 
 ```bash
 /home/tungnd/devops-k8s/lession-2# kubectl delete pod hello
@@ -93,7 +93,7 @@ pod "hello" deleted
 
 ```
 
-1. Apply
+2. Apply
 
 ```bash
 /home/tungnd/devops-k8s/lession-3# kubectl apply -f toolbox.json
@@ -101,7 +101,7 @@ pod/toolbox created
 
 ```
 
-1. Check 
+3. Check 
 
 ```bash
 /home/tungnd/devops-k8s/lession-3# kubectl exec -it toolbox bash
